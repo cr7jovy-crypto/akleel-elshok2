@@ -1,0 +1,82 @@
+{
+  "id": "/",
+  "name": "إكليل الشوك",
+  "short_name": "إكليل الشوك",
+  "description": "تطبيق مسيحي للكتاب المقدس والتعليم — العهد الجديد أوفلاين، القطمارس والسنكسار، قصص وتفاسير ومسابقات.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "dir": "rtl",
+  "lang": "ar",
+  "theme_color": "#0a0a0a",
+  "background_color": "#0a0a0a",
+  "categories": ["books", "education", "lifestyle"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "إكليل الشوك — الصفحة الرئيسية والعهد الجديد"
+    },
+    {
+      "src": "/screenshots/screenshot-mobile.png",
+      "sizes": "540x960",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "إكليل الشوك — القراءة والتأمل على الهاتف"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "العهد الجديد",
+      "short_name": "الكتاب",
+      "description": "افتح أسفار العهد الجديد أوفلاين",
+      "url": "/?section=bible",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "القطمارس والسنكسار",
+      "short_name": "القطمارس",
+      "description": "القراءات الكنسية اليومية وسير القديسين",
+      "url": "/?section=katamars",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "مسابقات الاختبار",
+      "short_name": "المسابقة",
+      "description": "اختبر معلوماتك في العهد الجديد",
+      "url": "/?section=quiz",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}

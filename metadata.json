@@ -1,0 +1,6 @@
+{
+  "name": "إكليل الشوك",
+  "description": "تطبيق مسيحي للكتاب المقدس والتعليم - العهد الجديد، القطمارس والسنكسار، قصص وتفاسير ومسابقات، يعمل بدون إنترنت.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
